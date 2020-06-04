@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Blinker', Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.heading {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+header {
+    background-color: #3273DC;
+}
+ul {
+    list-style: none;
+}
+
+.tabs {
+    /* display: flex;
+    align-items: stretch;
+    font-size: 1rem;
+    justify-content: space-between; */
+    margin-top: 40px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.flex p {
+    margin-top: 10px;
+}
+.tabs ul :first-child, .tabs ul:last-child {
+    border-radius: 4px;
+    margin: 0 1px;
+}
+.tabs ul {
+    display: flex;
+    justify-content: space-between;
+    color:#4a4a4a;
+    text-decoration: none;
+    
+}
+.container .final {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.finalTab {
+    width: 200px;
+    height: auto;
+    box-shadow: 1px 1px 3px 4px #4a4a4a79;
+}
+.tabs ul a {
+    text-decoration: none;
+    color: #4a4a4a;
+    border: 1px solid #4a4a4a;
+    padding: 5px 14px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.people {
+    width: 300px;
+    box-shadow: 2px 0px 3px 7px #3338e37a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.highlight {
+    background-color: #3273DC;
+    color: white;
+}
+
+.newCard {
+    margin: 5px;
+    padding: 5px;
+    border: 4px double #0b201e;
+
+}
